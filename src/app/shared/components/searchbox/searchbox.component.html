@@ -1,0 +1,8 @@
+<input 
+    type="text" 
+    [placeholder]="placeholder" 
+    class="form-control" 
+    (keyup.enter)="emitTerm( inputTerm.value )"
+    [formControl]="searchBox"
+    #inputTerm
+/>
